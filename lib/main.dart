@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: (_mode == "Focus")
                   ? PomodoroTimer(
                       title: "Focus",
-                      modetime: 1 * 60,
+                      modetime: 20 * 60,
                       updateCount: _updatecount,
                       changeMode: _changeMode,
                       count: _count,
@@ -68,13 +68,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   : (_mode == "Short")
                       ? PomodoroTimer(
                           title: "Short",
-                          modetime: 1 * 60,
+                          modetime: 2 * 60,
                           updateCount: _updatecount,
                           changeMode: _changeMode,
                           count: _count)
                       : PomodoroTimer(
                           title: "Long",
-                          modetime: 1 * 60,
+                          modetime: 5 * 60,
                           updateCount: _updatecount,
                           changeMode: _changeMode,
                           count: _count),
