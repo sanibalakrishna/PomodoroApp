@@ -1,10 +1,14 @@
 # promodoro
+### promodoro app with sound 
+## preview
+![pomodoro](https://user-images.githubusercontent.com/78022534/219936926-647669ff-34df-44e1-b5b9-8ea610a6e6d9.png)
 
-A new Flutter project.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application.!
+
 
 A few resources to get you started if this is your first Flutter project:
 
